@@ -1,4 +1,4 @@
-package imperativevsdeclarative;
+package com.learn.imperativevsdeclarative;
 
 import java.util.stream.IntStream;
 
