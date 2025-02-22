@@ -15,7 +15,7 @@ public class ConsumerExample {
     public static void main(String[] args) {
 
         /**
-         * Consumer takes input as String and print it as UpperCase String.
+         * Consumer taking input as String and print it as UpperCase String.
          */
         Consumer<String> consumer1 = (s) -> System.out.println(s.toUpperCase());
         consumer1.accept("input1");
