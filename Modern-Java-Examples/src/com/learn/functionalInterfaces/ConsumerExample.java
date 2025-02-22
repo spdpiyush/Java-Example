@@ -20,9 +20,9 @@ public class ConsumerExample {
         Consumer<String> consumer1 = (s) -> System.out.println(s.toUpperCase());
         consumer1.accept("input1");
 
-        //printStudents();
+        printStudents();
 
-        //printNameAndActivities();
+        printNameAndActivities();
 
         printNameAndActivitiesUsingCondition();
     }
