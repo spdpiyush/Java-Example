@@ -11,7 +11,8 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [Predicate](Modern-Java-Examples/src/com/learn/functionalInterfaces/PredicateExample.java)
     * [Predicate + Consumer](Modern-Java-Examples/src/com/learn/functionalInterfaces/PredicateAndConsumerExample.java)
     * [BiPredicate](Modern-Java-Examples/src/com/learn/functionalInterfaces/BiPredicateExample.java)
-    * [Function](Modern-Java-Examples/src/com/learn/functionalInterfaces/)
+    * [Function](Modern-Java-Examples/src/com/learn/functionalInterfaces/FunctionExample.java)
+    * [BiFunction](Modern-Java-Examples/src/com/learn/functionalInterfaces/BiFunctionExample.java)
 
 
 
