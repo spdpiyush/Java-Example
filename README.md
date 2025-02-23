@@ -15,6 +15,38 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [BiFunction](Modern-Java-Examples/src/com/learn/functionalInterfaces/BiFunctionExample.java)
     * [UnaryOperator](Modern-Java-Examples/src/com/learn/functionalInterfaces/UnaryOperatorExample.java)
     * [BinaryOperator](Modern-Java-Examples/src/com/learn/functionalInterfaces/BinaryOperatorExample.java)
+    * [Supplier](Modern-Java-Examples/src/com/learn/functionalInterfaces/SupplierExample.java)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
