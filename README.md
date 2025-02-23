@@ -10,6 +10,8 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [BiConsumer](Modern-Java-Examples/src/com/learn/functionalInterfaces/BiConsumerExample.java)
     * [Predicate](Modern-Java-Examples/src/com/learn/functionalInterfaces/PredicateExample.java)
     * [Predicate + Consumer](Modern-Java-Examples/src/com/learn/functionalInterfaces/PredicateAndConsumerExample.java)
+    * [BiPredicate](Modern-Java-Examples/src/com/learn/functionalInterfaces/BiPredicateExample.java)
+    * [Function](Modern-Java-Examples/src/com/learn/functionalInterfaces/)
 
 
 
