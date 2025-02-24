@@ -5,7 +5,7 @@ This repository contains the basic &amp; advance level examples related to Java 
 
   * [ImperativeVsDeclarative](Modern-Java-Examples/src/com/learn/imperativevsdeclarative)
   * [Lambdas](Modern-Java-Examples/src/com/learn/lambdas)
-  * [FunctionalInterface](Modern-Java-Examples/src/com/learn/functionalInterfaces)
+  * [Functional Interface](Modern-Java-Examples/src/com/learn/functionalInterfaces)
     * [Consumer](Modern-Java-Examples/src/com/learn/functionalInterfaces/ConsumerExample.java)
     * [BiConsumer](Modern-Java-Examples/src/com/learn/functionalInterfaces/BiConsumerExample.java)
     * [Predicate](Modern-Java-Examples/src/com/learn/functionalInterfaces/PredicateExample.java)
@@ -16,9 +16,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [UnaryOperator](Modern-Java-Examples/src/com/learn/functionalInterfaces/UnaryOperatorExample.java)
     * [BinaryOperator](Modern-Java-Examples/src/com/learn/functionalInterfaces/BinaryOperatorExample.java)
     * [Supplier](Modern-Java-Examples/src/com/learn/functionalInterfaces/SupplierExample.java)
-
-
-
+  * [Method Reference](Modern-Java-Examples/src/com/learn/methodreference/FunctionMethodReferenceExample.java)
 
 
 
