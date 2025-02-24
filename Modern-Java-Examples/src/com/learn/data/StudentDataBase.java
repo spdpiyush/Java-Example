@@ -3,8 +3,15 @@ package com.learn.data;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Supplier;
 
 public class StudentDataBase {
+
+
+    /**
+     * Utility Method to return 1 Student.
+     */
+    public static Supplier<Student> studentSupplier = () -> new Student("Adam", 2, "male", 4.5, Arrays.asList("swimming", "basketball"));
 
     /**
      * Dummy Student Data

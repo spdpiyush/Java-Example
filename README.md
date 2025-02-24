@@ -17,6 +17,8 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [BinaryOperator](Modern-Java-Examples/src/com/learn/functionalInterfaces/BinaryOperatorExample.java)
     * [Supplier](Modern-Java-Examples/src/com/learn/functionalInterfaces/SupplierExample.java)
   * [Method Reference](Modern-Java-Examples/src/com/learn/methodreference/FunctionMethodReferenceExample.java)
+    * [Consumer Method Reference](Modern-Java-Examples/src/com/learn/methodreference/ConsumerMethodReferenceExample.java)
+    * [Refactoring Method Reference](Modern-Java-Examples/src/com/learn/methodreference/RefactorMethodReferenceExample.java)
 
 
 
