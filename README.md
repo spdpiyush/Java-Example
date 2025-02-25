@@ -21,6 +21,8 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [Refactoring Method Reference](Modern-Java-Examples/src/com/learn/methodreference/RefactorMethodReferenceExample.java)
   * [Constructor Reference](Modern-Java-Examples/src/com/learn/constructorreference/ConstructorReferenceExample.java)
   * [Lambdas and Local Variables](Modern-Java-Examples/src/com/learn/lambdas/LambdaVariable1.java)
+  * [Streams](Modern-Java-Examples/src/com/learn/streams)
+    * [Stream Example](Modern-Java-Examples/src/com/learn/streams/StreamsExample.java)
 
 
 
