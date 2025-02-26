@@ -10,6 +10,9 @@ public class StreamsFlatMapExample {
 
     public static void main(String[] args) {
         System.out.println(studentActivities());
+        System.out.println(uniqueStudentActivities());
+        System.out.println(studentActivitiesCount());
+        System.out.println(studentActivitiesInSortedOrder());
     }
 
     /**
@@ -26,5 +29,51 @@ public class StreamsFlatMapExample {
                 .flatMap(List::stream)
                 .collect(Collectors.toList());
 
+    }
+
+    /**
+     * <p>
+     *     we want unique set of activities that all students are participating
+     *     use distinct() : Perform Unique operation. ( similar to SQL Queries )
+     * </p>
+     */
+    public static List<String> uniqueStudentActivities() {
+        return StudentDataBase.getAllStudents().stream()
+                .map(Student::getActivities)
+                .flatMap(List::stream)
+                .distinct()
+                .collect(Collectors.toList());
+    }
+
+    /**
+     * <p>
+     *     Get count of all activities from StudentDataBase.
+     *     count() : gives total number of elements in that Stream.
+     * </p>
+     * @return
+     */
+    public static long studentActivitiesCount() {
+        return StudentDataBase.getAllStudents().stream()
+                .map(Student::getActivities)
+                .flatMap(List::stream)
+                .distinct()
+                .count();
+    }
+
+    /**
+     * <p>
+     *     we want Student activities in Sorted Order.
+     *     sorted() :
+     *     we can also pass Custom Comparator as argument to it.
+     * </p>
+     * @return
+     */
+    public static List<String> studentActivitiesInSortedOrder() {
+        return StudentDataBase.getAllStudents().stream()
+                .map(Student::getActivities)
+                .flatMap(List::stream)
+                .distinct()
+                .sorted()
+                .collect(Collectors.toList());
     }
 }
