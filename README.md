@@ -26,6 +26,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [Collection vs Stream](Modern-Java-Examples/src/com/learn/streams/CollectionVsStream.java)
   * [Streams API Operations]
     * [map()](Modern-Java-Examples/src/com/learn/streams/StreamsMapExample.java)
+    * [flatMap()](Modern-Java-Examples/src/com/learn/streams/StreamsFlatMapExample.java)
 
 
 
