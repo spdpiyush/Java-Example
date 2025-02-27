@@ -1,5 +1,8 @@
 package com.learn.streams;
 
+import com.learn.data.Student;
+import com.learn.data.StudentDataBase;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -17,6 +20,11 @@ public class StreamsReduceExample {
 
         Optional<Integer> result2 = perfromMultiplicationWithoutIdentity(new ArrayList<>());
         System.out.println(result2.isPresent());
+
+        Optional<Student> highestGpaStudent = getHightestGPAStudent();
+        if (highestGpaStudent.isPresent()) {
+            System.out.println(highestGpaStudent.get());
+        }
 
     }
 
@@ -41,5 +49,16 @@ public class StreamsReduceExample {
 
         return integerList.stream()
                 .reduce((num1, num2) -> num1 * num2);
+    }
+
+    /**
+     * <p>
+     *     Find the Student with highest GPA
+     * </p>
+     * @return
+     */
+    public static Optional<Student> getHightestGPAStudent() {
+        return StudentDataBase.getAllStudents().stream()
+                .reduce((student1, student2) -> student1.getGpa() > student2.getGpa() ? student1 : student2);
     }
 }
