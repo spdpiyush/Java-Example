@@ -30,6 +30,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [distinct(), count() and sorted()](Modern-Java-Examples/src/com/learn/streams/StreamsFlatMapExample.java)
     * [sort() using Comparator](Modern-Java-Examples/src/com/learn/streams/StreamsComparatorExample.java)
     * [filter()](Modern-Java-Examples/src/com/learn/streams/StreamsFilterExample.java)
+    * [reduct()](Modern-Java-Examples/src/com/learn/streams/StreamsReduceExample.java)
 
 
 
