@@ -24,13 +24,13 @@ This repository contains the basic &amp; advance level examples related to Java 
   * [Streams](Modern-Java-Examples/src/com/learn/streams)
     * [Stream Example](Modern-Java-Examples/src/com/learn/streams/StreamsExample.java)
     * [Collection vs Stream](Modern-Java-Examples/src/com/learn/streams/CollectionVsStream.java)
-  * [Streams API Operations]
+  * [Streams API Operations](Modern-Java-Examples/src/com/learn/streams/StreamsExample.java)
     * [map()](Modern-Java-Examples/src/com/learn/streams/StreamsMapExample.java)
     * [flatMap()](Modern-Java-Examples/src/com/learn/streams/StreamsFlatMapExample.java)
     * [distinct(), count() and sorted()](Modern-Java-Examples/src/com/learn/streams/StreamsFlatMapExample.java)
     * [sort() using Comparator](Modern-Java-Examples/src/com/learn/streams/StreamsComparatorExample.java)
     * [filter()](Modern-Java-Examples/src/com/learn/streams/StreamsFilterExample.java)
-    * [reduct()](Modern-Java-Examples/src/com/learn/streams/StreamsReduceExample.java)
+    * [reduce()](Modern-Java-Examples/src/com/learn/streams/StreamsReduceExample.java)
 
 
 
