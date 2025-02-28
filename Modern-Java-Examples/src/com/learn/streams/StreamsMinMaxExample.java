@@ -18,10 +18,18 @@ public class StreamsMinMaxExample {
         }else {
             System.out.println("Input list is empty.");
         }
+
+        System.out.println("Minimum value = " + findMinValue(integerList));
+        Optional<Integer> minValueOptional = findMinValueOptional(integerList);
+        if (minValueOptional.isPresent()) {
+            System.out.println("Min value with Optional : " + minValueOptional.get());
+        }else {
+            System.out.println("Input list is empty.");
+        }
     }
 
     /**
-     * this method is not correct is we pass empty List, it returns the default value as max.
+     * this method is not correct if we pass empty List, it returns the default value as max.
      * @param integerList
      * @return
      */
@@ -40,5 +48,25 @@ public class StreamsMinMaxExample {
     public static Optional<Integer> findMaxValueOptional(List<Integer> integerList) {
         return integerList.stream()
                 .reduce(Integer::max);
+    }
+
+    /**
+     * this method is not correct, if we pass empty List, it returns the default value as min.
+     * @param integerList
+     * @return
+     */
+    public static int findMinValue(List<Integer> integerList) {
+        return integerList.stream()
+                .reduce(Integer.MAX_VALUE, (x, y) -> x < y ? x : y);
+    }
+
+    /**
+     * Finding min with Optional
+     * @param integerList
+     * @return
+     */
+    public static Optional<Integer> findMinValueOptional(List<Integer> integerList) {
+        return integerList.stream()
+                .reduce(Integer::min);
     }
 }

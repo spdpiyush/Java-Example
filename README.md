@@ -32,7 +32,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [filter()](Modern-Java-Examples/src/com/learn/streams/StreamsFilterExample.java)
     * [reduce()](Modern-Java-Examples/src/com/learn/streams/StreamsReduceExample.java)
     * [map() + filter() + reduce()](Modern-Java-Examples/src/com/learn/streams/StreamMapReduceExample.java)
-    * [max using reduce()](Modern-Java-Examples/src/com/learn/streams/StreamsMinMaxExample.java)
+    * [max and min using reduce()](Modern-Java-Examples/src/com/learn/streams/StreamsMinMaxExample.java)
 
 
 
