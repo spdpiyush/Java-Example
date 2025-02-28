@@ -9,6 +9,7 @@ public class Student {
     private String gender;
     private double gpa;
     private List<String> activities;
+    private int noteBooks;
 
     public Student(String name, int gradeLevel, String gender, double gpa, List<String> activities) {
         this.name = name;
@@ -16,6 +17,15 @@ public class Student {
         this.gender = gender;
         this.gpa = gpa;
         this.activities = activities;
+    }
+
+    public Student(String name, int gradeLevel, String gender, double gpa, List<String> activities, int noteBooks) {
+        this.name = name;
+        this.gradeLevel = gradeLevel;
+        this.gender = gender;
+        this.gpa = gpa;
+        this.activities = activities;
+        this.noteBooks = noteBooks;
     }
 
     public Student() {
@@ -64,6 +74,14 @@ public class Student {
 
     public void setActivities(List<String> activities) {
         this.activities = activities;
+    }
+
+    public int getNoteBooks() {
+        return noteBooks;
+    }
+
+    public void setNoteBooks(int noteBooks) {
+        this.noteBooks = noteBooks;
     }
 
     @Override

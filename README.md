@@ -31,6 +31,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [sort() using Comparator](Modern-Java-Examples/src/com/learn/streams/StreamsComparatorExample.java)
     * [filter()](Modern-Java-Examples/src/com/learn/streams/StreamsFilterExample.java)
     * [reduce()](Modern-Java-Examples/src/com/learn/streams/StreamsReduceExample.java)
+    * [map() + filter() + reduce()](Modern-Java-Examples/src/com/learn/streams/StreamMapReduceExample.java)
 
 
 
