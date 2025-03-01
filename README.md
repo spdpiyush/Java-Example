@@ -34,6 +34,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [map() + filter() + reduce()](Modern-Java-Examples/src/com/learn/streams/StreamMapReduceExample.java)
     * [max and min using reduce()](Modern-Java-Examples/src/com/learn/streams/StreamsMinMaxExample.java)
     * [skip() and limit()](Modern-Java-Examples/src/com/learn/streams/StreamsLimitSkipExample.java)
+    * [allMatch(), anyMatch() and noneMatch()](Modern-Java-Examples/src/com/learn/streams/StreamsMatchExample.java)
 
 
 
