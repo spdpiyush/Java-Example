@@ -36,12 +36,14 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [skip() and limit()](Modern-Java-Examples/src/com/learn/streams/StreamsLimitSkipExample.java)
     * [allMatch(), anyMatch() and noneMatch()](Modern-Java-Examples/src/com/learn/streams/StreamsMatchExample.java)
     * [findFirst() and findAny()](Modern-Java-Examples/src/com/learn/streams/StreamsFindExample.java)
+    * [of(), iterate() and generate()](Modern-Java-Examples/src/com/learn/streams/StreamOfGenerateIterateExample.java)
+
 
 <hr />
 
 ## Contributing
 
-This repository is a personal project and accept pull requests to maintain consistency in Java Coding Style. However, feel free to fork the repository and modify it as needed.
+This repository is a personal project, but we welcome pull requests to keep the Java coding style up to date with new concepts. Additionally, feel free to fork the repository and modify it as you see fit.
 
 
 
