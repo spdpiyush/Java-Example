@@ -37,7 +37,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [allMatch(), anyMatch() and noneMatch()](Modern-Java-Examples/src/com/learn/streams/StreamsMatchExample.java)
     * [findFirst() and findAny()](Modern-Java-Examples/src/com/learn/streams/StreamsFindExample.java)
     * [of(), iterate() and generate()](Modern-Java-Examples/src/com/learn/streams/StreamOfGenerateIterateExample.java)
-
+  * [ Numeric Streams](Modern-Java-Examples/src/com/learn/numericstreams/NumericStreamsExample.java)
 
 <hr />
 
