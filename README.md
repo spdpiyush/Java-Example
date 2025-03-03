@@ -1,7 +1,7 @@
 # Java-Example
 This repository contains the basic &amp; advance level examples related to Java Programming Languages.
 
-* Modern Java Examples
+### Modern Java Examples
 
   * [ImperativeVsDeclarative](Modern-Java-Examples/src/com/learn/imperativevsdeclarative)
   * [Lambdas](Modern-Java-Examples/src/com/learn/lambdas)
@@ -36,6 +36,13 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [skip() and limit()](Modern-Java-Examples/src/com/learn/streams/StreamsLimitSkipExample.java)
     * [allMatch(), anyMatch() and noneMatch()](Modern-Java-Examples/src/com/learn/streams/StreamsMatchExample.java)
     * [findFirst() and findAny()](Modern-Java-Examples/src/com/learn/streams/StreamsFindExample.java)
+
+<hr />
+
+## Contributing
+
+This repository is a personal project and accept pull requests to maintain consistency in Java Coding Style. However, feel free to fork the repository and modify it as needed.
+
 
 
 
