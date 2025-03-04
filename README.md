@@ -38,6 +38,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [findFirst() and findAny()](Modern-Java-Examples/src/com/learn/streams/StreamsFindExample.java)
     * [of(), iterate() and generate()](Modern-Java-Examples/src/com/learn/streams/StreamOfGenerateIterateExample.java)
   * [ Numeric Streams](Modern-Java-Examples/src/com/learn/numericstreams/NumericStreamsExample.java)
+    * [range(), rangeClosed() and count()](Modern-Java-Examples/src/com/learn/numericstreams/NumericStreamRangesExample.java)
 
 <hr />
 
