@@ -39,6 +39,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [of(), iterate() and generate()](Modern-Java-Examples/src/com/learn/streams/StreamOfGenerateIterateExample.java)
   * [ Numeric Streams](Modern-Java-Examples/src/com/learn/numericstreams/NumericStreamsExample.java)
     * [range(), rangeClosed() and count()](Modern-Java-Examples/src/com/learn/numericstreams/NumericStreamRangesExample.java)
+    * [sum(), max(), min() and average()](Modern-Java-Examples/src/com/learn/numericstreams/NumericStreamAggregateExample.java)
 
 <hr />
 
