@@ -41,6 +41,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [range(), rangeClosed() and count()](Modern-Java-Examples/src/com/learn/numericstreams/NumericStreamRangesExample.java)
     * [sum(), max(), min() and average()](Modern-Java-Examples/src/com/learn/numericstreams/NumericStreamAggregateExample.java)
     * [boxing, unboxing and mapToInt()](Modern-Java-Examples/src/com/learn/numericstreams/NumericStreamsBoxingUnboxingExample.java)
+    * [mapToObj(), mapToLong() and mapToDouble()](Modern-Java-Examples/src/com/learn/numericstreams/NumericStreamsMapExample.java)
     
 
 <hr />
