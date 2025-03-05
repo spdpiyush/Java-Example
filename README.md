@@ -42,6 +42,8 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [sum(), max(), min() and average()](Modern-Java-Examples/src/com/learn/numericstreams/NumericStreamAggregateExample.java)
     * [boxing, unboxing and mapToInt()](Modern-Java-Examples/src/com/learn/numericstreams/NumericStreamsBoxingUnboxingExample.java)
     * [mapToObj(), mapToLong() and mapToDouble()](Modern-Java-Examples/src/com/learn/numericstreams/NumericStreamsMapExample.java)
+  * [ Stream Terminal Operations ](Modern-Java-Examples/src/com/learn/streams_terminal)
+    * [ joining()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsJoiningExample.java)
     
 
 <hr />
