@@ -6,7 +6,7 @@ import com.learn.data.StudentDataBase;
 import java.util.stream.Collectors;
 
 /**
- * joining() used to concatenates the input elements into a
+ * joining() Collector used to concatenates the input elements into a
  * {@code String}, in encounter order.
  */
 public class StreamsJoiningExample {

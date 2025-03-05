@@ -44,6 +44,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [mapToObj(), mapToLong() and mapToDouble()](Modern-Java-Examples/src/com/learn/numericstreams/NumericStreamsMapExample.java)
   * [ Stream Terminal Operations ](Modern-Java-Examples/src/com/learn/streams_terminal)
     * [ joining()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsJoiningExample.java)
+    * [ counting()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsCountingExample.java)
     
 
 <hr />
