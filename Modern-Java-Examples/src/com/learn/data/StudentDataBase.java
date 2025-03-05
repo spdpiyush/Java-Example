@@ -32,12 +32,15 @@ public class StudentDataBase {
         Student student5 = new Student("Sophia", 4, "female", 3.5, Arrays.asList("swimming", "basketball", "dancing"), 15);
         Student student6 = new Student("James", 4, "male", 3.2, Arrays.asList("swimming", "basketball"), 5);
 
+        Student student7 = new Student("Adam", 5, "male", 5.2, Arrays.asList("swimming", "basketball"), 4);
+
         studentList.add(student1);
         studentList.add(student2);
         studentList.add(student3);
         studentList.add(student4);
         studentList.add(student5);
         studentList.add(student6);
+        studentList.add(student7);
         return studentList;
     }
 }

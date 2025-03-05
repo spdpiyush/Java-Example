@@ -45,6 +45,7 @@ This repository contains the basic &amp; advance level examples related to Java 
   * [ Stream Terminal Operations ](Modern-Java-Examples/src/com/learn/streams_terminal)
     * [ joining()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsJoiningExample.java)
     * [ counting()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsCountingExample.java)
+    * [ mapping()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsMappingExample.java)
     
 
 <hr />
