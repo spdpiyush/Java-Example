@@ -33,6 +33,7 @@ public class StudentDataBase {
         Student student6 = new Student("James", 4, "male", 3.2, Arrays.asList("swimming", "basketball"), 5);
 
         Student student7 = new Student("Adam", 5, "male", 5.2, Arrays.asList("swimming", "basketball"), 4);
+        Student student8 = new Student("Jenifer", 4, "female", 8.2, Arrays.asList("swimming", "basketball"), 8);
 
         studentList.add(student1);
         studentList.add(student2);
@@ -41,6 +42,7 @@ public class StudentDataBase {
         studentList.add(student5);
         studentList.add(student6);
         studentList.add(student7);
+        studentList.add(student8);
         return studentList;
     }
 }

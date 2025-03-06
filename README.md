@@ -46,6 +46,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [ joining()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsJoiningExample.java)
     * [ counting()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsCountingExample.java)
     * [ mapping()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsMappingExample.java)
+    * [ minBy() and maxBy()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsMinByMaxByExample.java)
     
 
 <hr />
