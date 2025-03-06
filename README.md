@@ -48,6 +48,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [ mapping()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsMappingExample.java)
     * [ minBy() and maxBy()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsMinByMaxByExample.java)
     * [ summingInt() and averagingInt()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsSumAvgExample.java)
+    * [ groupingBy()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsGroupingByExample.java)
     
 
 <hr />
