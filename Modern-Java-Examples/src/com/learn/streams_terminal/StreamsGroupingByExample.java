@@ -29,6 +29,9 @@ public class StreamsGroupingByExample {
 
         System.out.println("Student grouped based on Gender : " + groupingByExample1());
         System.out.println("Student grouped based on PASS/FAIL : " + groupingByExample2());
+
+        System.out.println("Two Level Grouping : " + twoLevelGrouping1());
+        System.out.println("Two Level Grouping " + twoLevelGrouping2());
     }
 
     /**
@@ -53,5 +56,27 @@ public class StreamsGroupingByExample {
         return StudentDataBase.getAllStudents()
                 .stream()
                 .collect(Collectors.groupingBy(student -> student.getGpa() >= 3.8 ? "PASS" : "FAIL"));
+    }
+
+    /**
+     * <p>
+     *     Here, we are performing 2 Level grouping.
+     *     First Grouping is at the Grade Level.
+     *     Second Grouping is at  a customized implementation (i.e. based on PASS ond FAIL ) on GPA.
+     * </p>
+     */
+    public static Map<Integer, Map<String, List<Student>>> twoLevelGrouping1() {
+        return StudentDataBase.getAllStudents()
+                .stream()
+                .collect(Collectors.groupingBy(Student::getGradeLevel,
+                        Collectors.groupingBy(student -> student.getGpa() >= 3.8 ? "PASS" : "FAIL")));
+    }
+
+
+    public static Map<Integer, Integer> twoLevelGrouping2() {
+        return StudentDataBase.getAllStudents()
+                .stream()
+                .collect(Collectors.groupingBy(Student::getGradeLevel,
+                        Collectors.summingInt(Student::getNoteBooks)));
     }
 }
