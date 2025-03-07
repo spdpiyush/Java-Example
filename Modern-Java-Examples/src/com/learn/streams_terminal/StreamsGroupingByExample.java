@@ -3,8 +3,10 @@ package com.learn.streams_terminal;
 import com.learn.data.Student;
 import com.learn.data.StudentDataBase;
 
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
@@ -32,6 +34,8 @@ public class StreamsGroupingByExample {
 
         System.out.println("Two Level Grouping : " + twoLevelGrouping1());
         System.out.println("Two Level Grouping " + twoLevelGrouping2());
+
+        System.out.println("Three Argument Grouping By : " + threeArgumentGroupingByExample());
     }
 
     /**
@@ -73,10 +77,43 @@ public class StreamsGroupingByExample {
     }
 
 
+    /**
+     * <p>
+     *     internally this grouping by invokes this
+     *     @code groupingBy(classifier, HashMap::new, downstream)
+     *     here new HashMap is passed as a supplier,
+     *     so output of groupingBy(classifier, downstream) is always going to be HashMap.
+     * </p>
+     */
     public static Map<Integer, Integer> twoLevelGrouping2() {
         return StudentDataBase.getAllStudents()
                 .stream()
                 .collect(Collectors.groupingBy(Student::getGradeLevel,
                         Collectors.summingInt(Student::getNoteBooks)));
+    }
+
+    /**
+     * <p>
+     *
+     *     groupingBy(classifier, supplier, downstream)
+     *          - classifier : determines the key.
+     *          - supplier : determines the output type collection
+     *          - downstream : what is the value that is going to generate.
+     *
+     *     for LinkedHashMap<K, V>
+     *          Key - Gender
+     *          Value - Set<Student>
+     *
+     * </p>
+     * Key - Name
+     *
+     * @return
+     */
+    public static LinkedHashMap<String, Set<Student>> threeArgumentGroupingByExample() {
+        return StudentDataBase.getAllStudents()
+                .stream()
+                .collect(Collectors.groupingBy(Student::getGender,
+                        LinkedHashMap::new,
+                        Collectors.toSet()));
     }
 }
