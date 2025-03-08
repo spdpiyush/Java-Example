@@ -18,6 +18,14 @@ public class ParallelStreamExample {
                 .sum();
     }
 
+    /**
+     * <p>
+     *     If it is parallel stream, this is going to split the data into multiple parts
+     *     and process them concurrently. And it is going to accumulate the result and
+     *     give result as a output.
+     * </p>
+     * @return
+     */
     public static int sumByParallelStream() {
         return IntStream.rangeClosed(1, 100000)
                 .parallel()
