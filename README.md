@@ -51,8 +51,9 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [ groupingBy()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsGroupingByExample.java)
     * [ groupingBy() - with maxBy(), minBy() and collectingThen()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsMinMaxCollectingThenExample.java)
     * [ partitioningBy()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsPartitioningByExample.java)
-  * [ parallelStream ]
-    * [ parallel Stream Example & Performance](Modern-Java-Examples/src/com/learn/parallelstream/ParallelStreamExample.java)
+  * parallelStream 
+      * [ parallel Stream Example & Performance](Modern-Java-Examples/src/com/learn/parallelstream/ParallelStreamExample.java)
+      * [ sequential & parallel Stream Comparison ](Modern-Java-Examples/src/com/learn/parallelstream/ParallelStreamExample1.java)
 
 <hr />
 
