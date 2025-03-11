@@ -51,11 +51,13 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [ groupingBy()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsGroupingByExample.java)
     * [ groupingBy() - with maxBy(), minBy() and collectingThen()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsMinMaxCollectingThenExample.java)
     * [ partitioningBy()](Modern-Java-Examples/src/com/learn/streams_terminal/StreamsPartitioningByExample.java)
-  * parallelStream 
-      * [ parallel Stream Example & Performance](Modern-Java-Examples/src/com/learn/parallelstream/ParallelStreamExample.java)
-      * [ sequential & parallel Stream Comparison ](Modern-Java-Examples/src/com/learn/parallelstream/ParallelStreamExample1.java)
-      * [ sequential & parallel stream unboxing Performance ](Modern-Java-Examples/src/com/learn/parallelstream/ParallelStreamBoxedExample.java)
-      * [ parallel stream mutating variable](Modern-Java-Examples/src/com/learn/parallelstream/SumClient.java)
+  * **parallelStream** 
+    * [ parallel Stream Example & Performance](Modern-Java-Examples/src/com/learn/parallelstream/ParallelStreamExample.java)
+    * [ sequential & parallel Stream Comparison ](Modern-Java-Examples/src/com/learn/parallelstream/ParallelStreamExample1.java)
+    * [ sequential & parallel stream unboxing Performance ](Modern-Java-Examples/src/com/learn/parallelstream/ParallelStreamBoxedExample.java)
+    * [ parallel stream mutating variable](Modern-Java-Examples/src/com/learn/parallelstream/SumClient.java)
+  * **Optional** 
+    * [Optional() Example](Modern-Java-Examples/src/com/learn/optional/OptionalExample.java)
 
 <hr />
 
