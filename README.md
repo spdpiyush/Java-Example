@@ -57,7 +57,8 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [ sequential & parallel stream unboxing Performance ](Modern-Java-Examples/src/com/learn/parallelstream/ParallelStreamBoxedExample.java)
     * [ parallel stream mutating variable](Modern-Java-Examples/src/com/learn/parallelstream/SumClient.java)
   * **Optional** 
-    * [Optional() Example](Modern-Java-Examples/src/com/learn/optional/OptionalExample.java)
+    * [Optional Example](Modern-Java-Examples/src/com/learn/optional/OptionalExample.java)
+    * [Optional : ofNullable() , of() , empty()](Modern-Java-Examples/src/com/learn/optional/OptionalOfEmptyNullableExample.java)
 
 <hr />
 
