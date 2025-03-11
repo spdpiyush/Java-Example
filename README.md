@@ -58,7 +58,8 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [ parallel stream mutating variable](Modern-Java-Examples/src/com/learn/parallelstream/SumClient.java)
   * **Optional** 
     * [Optional Example](Modern-Java-Examples/src/com/learn/optional/OptionalExample.java)
-    * [Optional : ofNullable() , of() , empty()](Modern-Java-Examples/src/com/learn/optional/OptionalOfEmptyNullableExample.java)
+    * [ofNullable(), of() and empty()](Modern-Java-Examples/src/com/learn/optional/OptionalOfEmptyNullableExample.java)
+    * [orElse(), orElseGet() and orElseThrow()](Modern-Java-Examples/src/com/learn/optional/OptionalOrElseExample.java)
 
 <hr />
 
