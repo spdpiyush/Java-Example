@@ -3,6 +3,7 @@ package com.learn.data;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.Supplier;
 
 public class StudentDataBase {
@@ -11,7 +12,14 @@ public class StudentDataBase {
     /**
      * Utility Method to return 1 Student.
      */
-    public static Supplier<Student> studentSupplier = () -> new Student("Adam", 2, "male", 4.5, Arrays.asList("swimming", "basketball"));
+    public static Supplier<Student> studentSupplier = () -> {
+        Bike bike = new Bike();
+        bike.setName("Honda");
+        bike.setModel("X1");
+        Student student = new Student("Adam", 2, "male", 4.5, Arrays.asList("swimming", "basketball"));
+        student.setBike(Optional.ofNullable(bike));
+        return student;
+    };
 
     /**
      * Dummy Student Data

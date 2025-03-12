@@ -1,6 +1,7 @@
 package com.learn.data;
 
 import java.util.List;
+import java.util.Optional;
 
 public class Student {
 
@@ -10,6 +11,7 @@ public class Student {
     private double gpa;
     private List<String> activities;
     private int noteBooks;
+    private Optional<Bike> bike = Optional.empty();
 
     public Student(String name, int gradeLevel, String gender, double gpa, List<String> activities) {
         this.name = name;
@@ -84,14 +86,24 @@ public class Student {
         this.noteBooks = noteBooks;
     }
 
+    public Optional<Bike> getBike() {
+        return bike;
+    }
+
+    public void setBike(Optional<Bike> bike) {
+        this.bike = bike;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
-                ", gradeLevel='" + gradeLevel + '\'' +
+                ", gradeLevel=" + gradeLevel +
                 ", gender='" + gender + '\'' +
                 ", gpa=" + gpa +
                 ", activities=" + activities +
+                ", noteBooks=" + noteBooks +
+                ", bike=" + bike +
                 '}';
     }
 }
