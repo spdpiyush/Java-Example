@@ -60,6 +60,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [Optional Example](Modern-Java-Examples/src/com/learn/optional/OptionalExample.java)
     * [ofNullable(), of() and empty()](Modern-Java-Examples/src/com/learn/optional/OptionalOfEmptyNullableExample.java)
     * [orElse(), orElseGet() and orElseThrow()](Modern-Java-Examples/src/com/learn/optional/OptionalOrElseExample.java)
+    * [ifPresent() and isPresent()](Modern-Java-Examples/src/com/learn/optional/OptionalPresentExample.java)
 
 <hr />
 
