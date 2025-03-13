@@ -62,6 +62,8 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [orElse(), orElseGet() and orElseThrow()](Modern-Java-Examples/src/com/learn/optional/OptionalOrElseExample.java)
     * [ifPresent() and isPresent()](Modern-Java-Examples/src/com/learn/optional/OptionalPresentExample.java)
     * [filter(), map() and flatMap()](Modern-Java-Examples/src/com/learn/optional/OptionalMapFlatMapExample.java)
+  * **Defaults**
+    * [default methods](Modern-Java-Examples/src/com/learn/defaults/DefaultsMethodExample.java)
 
 <hr />
 
