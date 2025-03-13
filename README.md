@@ -64,6 +64,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [filter(), map() and flatMap()](Modern-Java-Examples/src/com/learn/optional/OptionalMapFlatMapExample.java)
   * **Defaults**
     * [default methods](Modern-Java-Examples/src/com/learn/defaults/DefaultsMethodExample.java)
+    * [sort using Comparator](Modern-Java-Examples/src/com/learn/defaults/DefaultsMethodsExample2.java)
 
 <hr />
 
