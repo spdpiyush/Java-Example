@@ -67,6 +67,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [sort using Comparator](Modern-Java-Examples/src/com/learn/defaults/DefaultsMethodsExample2.java)
     * [Comparator: nullsFirst and nullsLast](Modern-Java-Examples/src/com/learn/defaults/DefaultsMethodsExample2.java)
     * [default and static methods in Interface](Modern-Java-Examples/src/com/learn/defaults/Multiplier.java)
+    * [default method Multiple Inheritance](Modern-Java-Examples/src/com/learn/defaults/Client123.java)
 
 <hr />
 
