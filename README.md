@@ -69,6 +69,8 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [default and static methods in Interface](Modern-Java-Examples/src/com/learn/defaults/Multiplier.java)
     * [default method Multiple Inheritance](Modern-Java-Examples/src/com/learn/defaults/Client123.java)
     * [Interfaces with same method signature Conflicts](Modern-Java-Examples/src/com/learn/defaults/Client14.java)
+  * **New Date/Time API's** 
+    * [LocalDate, LocalTime and LocalDateTime](Modern-Java-Examples/src/com/learn/dates/NewDateTimeExample.java)
 
 <hr />
 
