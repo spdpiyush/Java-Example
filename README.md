@@ -71,6 +71,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [Interfaces with same method signature Conflicts](Modern-Java-Examples/src/com/learn/defaults/Client14.java)
   * **New Date/Time API's** 
     * [LocalDate, LocalTime and LocalDateTime](Modern-Java-Examples/src/com/learn/dates/NewDateTimeExample.java)
+    * [LocalDate](Modern-Java-Examples/src/com/learn/dates/LocalDateExample.java)
 
 <hr />
 
