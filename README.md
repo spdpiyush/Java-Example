@@ -73,6 +73,7 @@ This repository contains the basic &amp; advance level examples related to Java 
     * [LocalDate, LocalTime and LocalDateTime](Modern-Java-Examples/src/com/learn/dates/NewDateTimeExample.java)
     * [LocalDate](Modern-Java-Examples/src/com/learn/dates/LocalDateExample.java)
     * [Modifying LocalDate](Modern-Java-Examples/src/com/learn/dates/LocalDateExample2.java)
+    * [Additional Operation on LocalDate](Modern-Java-Examples/src/com/learn/dates/LocalDateExample3.java)
 
 <hr />
 

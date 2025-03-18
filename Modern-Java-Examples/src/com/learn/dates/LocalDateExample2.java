@@ -2,6 +2,7 @@ package com.learn.dates;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoField;
+import java.time.temporal.ChronoUnit;
 import java.time.temporal.TemporalAdjusters;
 
 public class LocalDateExample2 {
@@ -34,6 +35,12 @@ public class LocalDateExample2 {
 
         // it returns first day of next month from current local date
         System.out.println("with TemporalAdjuster : " + localDate.with(TemporalAdjusters.firstDayOfNextMonth()));
+
+        /**
+         * minus(long amountToSubtract, TemporalUnit unit)
+         * TemporalUnit is an interface and ChronoUnit is an enum which implements TemporalUnit
+         */
+        System.out.println("Chrono Unit minus year : " + localDate.minus(1, ChronoUnit.YEARS)); // minus year by 1
 
     }
 }
